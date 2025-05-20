@@ -1,15 +1,24 @@
 {
-  "name": "server",
+  "name": "rosa-mystica-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API for Rosa Mystica India — Express + MongoDB",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "mongodb",
+    "rosa-mystica",
+    "api"
+  ],
+  "author": "Shivam Rai",
   "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

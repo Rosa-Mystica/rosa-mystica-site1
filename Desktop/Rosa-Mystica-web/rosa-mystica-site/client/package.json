@@ -1,7 +1,15 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "rosa-mystica-client",
+  "version": "1.0.0",
   "private": true,
+  "description": "Frontend for Rosa Mystica India - built with React, TailwindCSS, and more",
+  "homepage": ".", 
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "axios": "^1.9.0",
     "cra-template-tailwindcss": "4.0.1",
@@ -15,12 +23,6 @@
     "react-scripts": "5.0.1",
     "recharts": "^2.15.3",
     "web-vitals": "^5.0.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
