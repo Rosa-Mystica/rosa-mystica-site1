@@ -12,12 +12,13 @@ function Home() {
     '/banners/rosabanner3.png',
   ];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % sliderImages.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+ useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentSlide((prev) => (prev + 1) % sliderImages.length);
+  }, 5000);
+  return () => clearInterval(interval);
+}, [sliderImages.length]); // ✅ Add missing dependency
+
 
   const categories = [
     {

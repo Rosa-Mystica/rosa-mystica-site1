@@ -16,7 +16,7 @@ function Checkout() {
     gst: '',
   });
 
-  const [msg, setMsg] = useState('');
+ 
 
   // Auto-fill email from JWT
   useEffect(() => {

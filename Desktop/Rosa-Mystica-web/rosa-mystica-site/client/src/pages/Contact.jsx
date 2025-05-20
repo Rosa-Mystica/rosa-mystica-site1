@@ -15,7 +15,7 @@ function Contact() {
     setMsg('');
 
     try {
-      const res = await axios.post('http://localhost:5001/api/contact', form);
+      await axios.post('http://localhost:5001/api/contact', form);
       setMsg('✅ Message sent successfully!');
       setForm({ name: '', email: '', message: '' });
     } catch (err) {
