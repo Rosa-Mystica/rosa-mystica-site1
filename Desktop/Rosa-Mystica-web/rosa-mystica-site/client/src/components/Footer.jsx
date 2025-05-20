@@ -1,47 +1,31 @@
-// client/src/components/Footer.jsx
+// Footer.jsx
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
-    <footer className="bg-[#5D001E] text-white py-8">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Brand */}
+    <footer className="bg-[#5D001E] text-white text-center p-6 mt-auto">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         <div>
-          <h4 className="text-lg font-semibold mb-2 text-white">Rosa Mystica India</h4>
-          <p className="text-sm text-gray-300">
-            Crafting authentic lifestyle and beverage products from Dehradun, Uttarakhand.
-          </p>
+          <h4 className="font-semibold text-lg mb-2">Rosa Mystica India</h4>
+          <p className="text-sm">Crafting premium lifestyle & beverage products in Dehradun.</p>
         </div>
 
-        {/* Quick Links */}
         <div>
-          <h4 className="text-lg font-semibold mb-2 text-white">Menu</h4>
-          <ul className="space-y-1 text-sm">
-            <li><a href="/" className="hover:underline text-gray-200">Home</a></li>
-            <li><a href="/products" className="hover:underline text-gray-200">Products</a></li>
-            <li><a href="/about" className="hover:underline">About Us</a>
-</li>
-            <li><a href="/cart" className="hover:underline text-gray-200">Cart</a></li>
-            <li><a href="/contact" className="hover:underline text-gray-200">Contact</a></li>
+          <h4 className="font-semibold text-lg mb-2">Quick Links</h4>
+          <ul className="text-sm space-y-1">
+            <li><Link to="/" className="hover:underline">Home</Link></li>
+            <li><Link to="/products" className="hover:underline">Products</Link></li>
+            <li><Link to="/about" className="hover:underline">About</Link></li>
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
-          <h4 className="text-lg font-semibold mb-2 text-white">Contact</h4>
-          <p className="text-sm text-gray-300">
-            32/4 Subhash Road 11 Lytton Road,<br />
-             Opp. Police H.Q, <br />
-            DEHRADUN (UTTARAKHAND)-248001
-          </p>
-          <p className="mt-2 text-sm text-gray-300">
-            Email: <a href="mailto:support@rosamystica.in" className="underline">info.rosamysticaindia@gmail.com</a><br />
-            Phone: +91 98765 43210
-          </p>
+          <h4 className="font-semibold text-lg mb-2">Contact Info</h4>
+          <p className="text-sm">Email: inforosamysticaindia@gmail.com</p>
+          <p className="text-sm">Dehradun, Uttarakhand</p>
         </div>
       </div>
-
-      <div className="text-center text-xs mt-6 text-gray-400">
-        © {new Date().getFullYear()} Rosa Mystica India. All rights reserved.
-      </div>
+      <div className="mt-6 text-sm text-gray-400">© {new Date().getFullYear()} Rosa Mystica India. All rights reserved.</div>
     </footer>
   );
 }
