@@ -28,12 +28,12 @@ function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-2 text-white">Contact</h4>
           <p className="text-sm text-gray-300">
-            76/1, Rajpur Road<br />
-            Near Pine Hall School<br />
-            Dehradun, Uttarakhand
+            32/4 Subhash Road 11 Lytton Road,<br />
+             Opp. Police H.Q, <br />
+            DEHRADUN (UTTARAKHAND)-248001
           </p>
           <p className="mt-2 text-sm text-gray-300">
-            Email: <a href="mailto:support@rosamystica.in" className="underline">support@rosamystica.in</a><br />
+            Email: <a href="mailto:support@rosamystica.in" className="underline">info.rosamysticaindia@gmail.com</a><br />
             Phone: +91 98765 43210
           </p>
         </div>

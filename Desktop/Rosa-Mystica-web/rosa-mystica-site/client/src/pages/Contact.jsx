@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import axios from 'axios';
+import axios from '../utils/axios'; // adjust path as needed
+
 
 function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });

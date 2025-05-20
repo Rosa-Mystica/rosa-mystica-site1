@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from '../utils/axios'; // adjust path as needed
+
 import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
 

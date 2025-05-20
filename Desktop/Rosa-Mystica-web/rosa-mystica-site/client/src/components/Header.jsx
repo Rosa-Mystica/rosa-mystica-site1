@@ -1,7 +1,8 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, useState, useRef, useContext } from 'react';
 import { jwtDecode } from 'jwt-decode';
-import axios from 'axios';
+import axios from '../utils/axios'; // adjust path as needed
+
 import { Bell, UserCircle } from 'lucide-react';
 import { CartContext } from '../context/CartContext';
 

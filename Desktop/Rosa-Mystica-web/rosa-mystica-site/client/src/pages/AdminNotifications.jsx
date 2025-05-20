@@ -1,6 +1,7 @@
 // client/src/pages/AdminNotifications.jsx
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from '../utils/axios'; // adjust path as needed
+
 import moment from 'moment';
 
 function AdminNotifications() {
