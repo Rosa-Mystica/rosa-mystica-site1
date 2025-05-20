@@ -15,7 +15,7 @@ function About() {
     {
       name: 'Capt. C.K Dhiman',
       role: 'Co-Founder & FO',
-      image: '/team/aman.jpg',
+      image: '/team/cksir.jpg',
     },
   ];
   return (

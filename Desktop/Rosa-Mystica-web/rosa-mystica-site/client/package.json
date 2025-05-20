@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Frontend for Rosa Mystica India - built with React, TailwindCSS, and more",
-  "homepage": "https://rosa-mystica-site1.vercel.app/", 
+  "homepage": ".", 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
